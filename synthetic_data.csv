@@ -1,0 +1,11 @@
+record_id,customer_name,plan_type,mrr_loss,churn_month,primary_reason
+1001,Enterprise_Corp_1,Plan B,12000,2026-08,Price Increase
+1002,Enterprise_Corp_2,Plan A,2000,2026-08,Support
+1003,Enterprise_Corp_3,Plan B,15000,2026-08,Price Increase
+1004,Enterprise_Corp_4,Plan B,8500,2026-08,Price Increase
+1005,Enterprise_Corp_5,Plan A,1000,2026-08,UX Issues
+1006,Enterprise_Corp_6,Plan B,7000,2026-08,Price Increase
+1007,Enterprise_Corp_7,Plan C,3000,2026-08,Competitor
+1008,Enterprise_Corp_8,Plan B,9000,2026-08,Price Increase
+1009,Enterprise_Corp_9,Plan A,1500,2026-08,Support
+1010,Enterprise_Corp_10,Plan B,11000,2026-08,Price Increase
