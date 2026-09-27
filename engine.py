@@ -73,6 +73,7 @@ class DataTraceEngine:
         return {
             "insight_summary": f"MRR dropped by ₹{int(total_mrr_loss):,} in August 2026, primarily driven by Plan B churn due to recent price increases.",
             "total_loss": total_mrr_loss,
+            "sql_executed": sql_query,  # <--- THIS WAS MISSING!
             "data_summary": result_df.to_dict(orient="records"),
             "lineage_records": lineage_df.to_dict(orient="records"),
             "evaluated_rows": len(lineage_df),
